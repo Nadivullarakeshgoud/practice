@@ -1,0 +1,62 @@
+#bar1{
+    width:70%;
+}
+.img{
+    height:80px;
+    width: 240px;
+}
+.colle1{
+    display:flex;
+    gap:15px;
+    flex-wrap: nowrap;
+    width:100%;
+    
+   
+}
+#collections{
+    width:100%;
+    overflow-x:scroll;
+    
+
+    
+}
+#collections::-webkit-scrollbar{
+    
+    display:none;
+  
+
+}
+#topselling::-webkit-scrollbar{
+    display:none;
+
+}
+.tsm{
+    display:flex;
+    gap:15px;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+#topselling{
+    width:100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.card{
+    width: 250px;
+   height: 450px;
+}
+#topselling_header{
+    display: flex;
+    justify-content: space-between;
+}
+.card-img-top {
+   height: 245px;
+   width: 100%;
+}
+.fs{
+    
+    font-size: small;
+}
+/* .btn{
+    background-color: #ffa41c;
+} */
